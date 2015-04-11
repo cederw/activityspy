@@ -11,16 +11,46 @@ import android.content.Intent;
 public class MainActivity extends ActionBarActivity {
     private static final String TAG = "MainActivity";
 
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        Intent intent = new Intent(this, MainActivity.class);
         Log.i(TAG,"onCreate event fired");
-        if(intent.getExtras()!=null){
-            Log.i(TAG, intent.getExtras().toString());
-        }
+
+
+    }
+
+    @Override
+    protected void onStart() {
+        super.onStart();
+        Log.i(TAG,"onStart event fired");
+
+    }
+
+    @Override
+     protected void onResume() {
+        super.onResume();
+        Log.i(TAG,"onResume event fired");
+
+    }
+
+    @Override
+    protected void onPause() {
+        super.onPause();
+        Log.i(TAG,"onPause event fired");
+
+    }
+
+    @Override
+    protected void onStop() {
+        super.onStop();
+        Log.i(TAG,"onStop event fired");
+    }
+
+    @Override
+    protected void onRestart() {
+        super.onRestart();
+        Log.i(TAG,"onRestart event fired");
 
     }
 
@@ -29,6 +59,7 @@ public class MainActivity extends ActionBarActivity {
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
         getMenuInflater().inflate(R.menu.menu_main, menu);
+        Log.i(TAG,"onCreateOptionsMenu event fired");
         return true;
     }
 
@@ -38,7 +69,8 @@ public class MainActivity extends ActionBarActivity {
         // automatically handle clicks on the Home/Up button, so long
         // as you specify a parent activity in AndroidManifest.xml.
         int id = item.getItemId();
-
+        Log.i(TAG,"onOptionsItemSelected event fired");
+        Log.i(TAG, "Menu item: "+item.toString());
         //noinspection SimplifiableIfStatement
         if (id == R.id.action_settings) {
             return true;
@@ -49,6 +81,7 @@ public class MainActivity extends ActionBarActivity {
 
      @Override
     protected void onDestroy(){
-        Log.e(TAG, "We’re going down, Captain!");
+         Log.i(TAG,"onDestroy event fired");
+         Log.e(TAG, "We’re going down, Captain!");
     }
 }

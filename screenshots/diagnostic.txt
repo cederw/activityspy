@@ -1,19 +1,15 @@
-04-09 21:48:09.276    1070-1070/edu.washington.cederw.activityspy I/dalvikvm﹕ Could not find method android.view.ViewGroup.onNestedScrollAccepted, referenced from method android.support.v7.internal.widget.ActionBarOverlayLayout.onNestedScrollAccepted
-04-09 21:48:09.276    1070-1070/edu.washington.cederw.activityspy W/dalvikvm﹕ VFY: unable to resolve virtual method 11347: Landroid/view/ViewGroup;.onNestedScrollAccepted (Landroid/view/View;Landroid/view/View;I)V
-04-09 21:48:09.276    1070-1070/edu.washington.cederw.activityspy I/dalvikvm﹕ Could not find method android.view.ViewGroup.onStopNestedScroll, referenced from method android.support.v7.internal.widget.ActionBarOverlayLayout.onStopNestedScroll
-04-09 21:48:09.276    1070-1070/edu.washington.cederw.activityspy W/dalvikvm﹕ VFY: unable to resolve virtual method 11353: Landroid/view/ViewGroup;.onStopNestedScroll (Landroid/view/View;)V
-04-09 21:48:09.277    1070-1070/edu.washington.cederw.activityspy I/dalvikvm﹕ Could not find method android.support.v7.internal.widget.ActionBarOverlayLayout.stopNestedScroll, referenced from method android.support.v7.internal.widget.ActionBarOverlayLayout.setHideOnContentScrollEnabled
-04-09 21:48:09.277    1070-1070/edu.washington.cederw.activityspy W/dalvikvm﹕ VFY: unable to resolve virtual method 9041: Landroid/support/v7/internal/widget/ActionBarOverlayLayout;.stopNestedScroll ()V
-04-09 21:48:09.282    1070-1070/edu.washington.cederw.activityspy I/dalvikvm﹕ Could not find method android.content.res.TypedArray.getChangingConfigurations, referenced from method android.support.v7.internal.widget.TintTypedArray.getChangingConfigurations
-04-09 21:48:09.282    1070-1070/edu.washington.cederw.activityspy W/dalvikvm﹕ VFY: unable to resolve virtual method 365: Landroid/content/res/TypedArray;.getChangingConfigurations ()I
-04-09 21:48:09.283    1070-1070/edu.washington.cederw.activityspy I/dalvikvm﹕ Could not find method android.content.res.TypedArray.getType, referenced from method android.support.v7.internal.widget.TintTypedArray.getType
-04-09 21:48:09.283    1070-1070/edu.washington.cederw.activityspy W/dalvikvm﹕ VFY: unable to resolve virtual method 387: Landroid/content/res/TypedArray;.getType (I)I
-04-09 21:48:09.309    1070-1070/edu.washington.cederw.activityspy I/MainActivity﹕ onCreate event fired
-04-09 21:48:09.411    1070-1070/edu.washington.cederw.activityspy I/Adreno-EGL﹕ <qeglDrvAPI_eglInitialize:381>: EGL 1.4 QUALCOMM build: AU_LINUX_ANDROID_KK_2.7_RB1.04.04.04.007.066_msm8960_KK_2.7_RB1__release_AU ()
-    OpenGL ES Shader Compiler Version: 17.01.12.SPL
-    Build Date: 09/11/14 Thu
-    Local Branch: mybranch4451390
-    Remote Branch: quic/kk_2.7_rb1.43
-    Local Patches: NONE
-    Reconstruct Branch: AU_LINUX_ANDROID_KK_2.7_RB1.04.04.04.007.066 + 73685fa + 87c0666 + c4bc670 + 6154422 + 594ea9d +  NOTHING
-04-09 21:48:15.015    1070-1070/edu.washington.cederw.activityspy E/MainActivity﹕ We’re going down, Captain!
+04-12 20:01:44.974  10268-10268/edu.washington.cederw.activityspy I/MainActivity﹕ onCreate event fired
+04-12 20:01:44.975  10268-10268/edu.washington.cederw.activityspy I/MainActivity﹕ onStart event fired
+04-12 20:01:44.975  10268-10268/edu.washington.cederw.activityspy I/MainActivity﹕ onResume event fired
+04-12 20:01:45.062  10268-10268/edu.washington.cederw.activityspy I/MainActivity﹕ onCreateOptionsMenu event fired
+04-12 20:01:49.306  10268-10268/edu.washington.cederw.activityspy I/MainActivity﹕ onOptionsItemSelected event fired
+04-12 20:01:49.306  10268-10268/edu.washington.cederw.activityspy I/MainActivity﹕ Menu item: Settings
+04-12 20:01:54.423  10268-10268/edu.washington.cederw.activityspy I/MainActivity﹕ onPause event fired
+04-12 20:01:54.847  10268-10268/edu.washington.cederw.activityspy I/MainActivity﹕ onStop event fired
+04-12 20:01:57.096  10268-10268/edu.washington.cederw.activityspy I/MainActivity﹕ onRestart event fired
+04-12 20:01:57.097  10268-10268/edu.washington.cederw.activityspy I/MainActivity﹕ onStart event fired
+04-12 20:01:57.097  10268-10268/edu.washington.cederw.activityspy I/MainActivity﹕ onResume event fired
+04-12 20:02:08.582  10268-10268/edu.washington.cederw.activityspy I/MainActivity﹕ onPause event fired
+04-12 20:02:09.173  10268-10268/edu.washington.cederw.activityspy I/MainActivity﹕ onStop event fired
+04-12 20:02:09.173  10268-10268/edu.washington.cederw.activityspy I/MainActivity﹕ onDestroy event fired
+04-12 20:02:09.173  10268-10268/edu.washington.cederw.activityspy E/MainActivity﹕ We’re going down, Captain!

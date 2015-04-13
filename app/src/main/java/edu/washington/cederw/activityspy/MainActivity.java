@@ -6,6 +6,8 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.util.Log;
 import android.content.Intent;
+import android.widget.Button;
+import android.view.View;
 
 
 public class MainActivity extends ActionBarActivity {
@@ -16,6 +18,13 @@ public class MainActivity extends ActionBarActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         Log.i(TAG,"onCreate event fired");
+        final Button button = (Button) findViewById(R.id.button);
+        button.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                // Perform action on click
+                finish();
+            }
+        });
 
 
     }
@@ -83,5 +92,6 @@ public class MainActivity extends ActionBarActivity {
     protected void onDestroy(){
          Log.i(TAG,"onDestroy event fired");
          Log.e(TAG, "We’re going down, Captain!");
+         super.onDestroy();
     }
 }
